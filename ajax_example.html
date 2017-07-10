@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery AJAX Example</title>
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Let's learn how jQuery Ajax works</h1>
+
+<p>Click one button below. Each button element contains a data attribute that can be used by JavaScript.</p>
+
+<div class="wrapper">
+
+  <button data-state='CA'>California</button>
+  <button data-state='FL'>Florida</button>
+  <button data-state='NY'>New York</button>
+
+  <div id="content"></div>
+
+</div>
+
+<p>Ajax enables us to communicate with the server, access a file or a database there, and come back to our page and alter its contents <em>without reloading the page</em>. Often Ajax is also used to send data from the page (often from a form) to a script on the server, and often the server-side script will access a database.</p>
+
+<p>In this example, there is no form and no database. There's just a second HTML file that you never see in the browser.</p>
+
+<p>Each time you click any button here, the Ajax code accesses the file <em>states.html</em> on the server.</p>
+
+<p><strong>Side note:</strong> Learn more about <a href="https://www.sitepoint.com/use-html5-data-attributes/">data attributes</a> and accessing their values with jQuery.</p>
+
+<p>Ajax is probably going to be replaced by <strong>Fetch</strong> in the near future. Here is this same example <a href="fetch_example.html">done with Fetch instead of Ajax</a>.</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>

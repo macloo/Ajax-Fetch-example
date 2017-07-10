@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Fetch Example</title>
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Let's learn how Fetch works</h1>
+
+<p>Click one button below. Each button element contains a data attribute that can be used by JavaScript.</p>
+
+<div class="wrapper">
+
+  <button data-state='CA'>California</button>
+  <button data-state='FL'>Florida</button>
+  <button data-state='NY'>New York</button>
+
+  <div id="content"></div>
+
+</div>
+
+<p>The Fetch API is likely going to replace Ajax as the JavaScript way to communicate with the server, access a file or a database there, and come back to our page and alter its contents <em>without reloading the page</em>.</p>
+
+<p>Each time you click any button here, the Fetch code accesses the file <em>states.html</em> on the server.</p>
+
+<p><strong>Side notes:</strong></p>
+<ol>
+  <li>Learn more about <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">Fetch</a>. Also <a href="https://weimergeeks.com/wp/javascript/fetch-api-better-than-ajax/">here</a> and <a href="https://weimergeeks.com/wp/javascript/more-about-using-fetch/">here</a>.</li>
+
+  <li>Learn more about <a href="https://www.sitepoint.com/use-html5-data-attributes/">data attributes</a> and accessing their values with jQuery.</li>
+
+  <li>Here is this same example <a href="ajax_example.html">done with Ajax instead of Fetch</a>.
+</ol>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+</script>
+<script src="js/fetch_example.js"></script>
+</body>
+</html>

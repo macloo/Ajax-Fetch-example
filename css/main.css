@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  font-size: 100%;
+  margin: 50px;
+}
+img {
+  max-width: 100%;
+}
+.state {
+  width: 200px;
+  margin: 2em auto;
+}
+.state p {
+  text-align: center;
+}
